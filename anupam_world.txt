@@ -1,0 +1,38 @@
+anupam-world/
+├── app.py                     # Flask application
+├── models.py                  # Database models
+├── config.py                  # Configuration settings
+├── requirements.txt           # Python dependencies
+├── database/
+│   └── schema.sql            # Database schema
+├── templates/                # HTML templates
+│   ├── base.html            # Base template
+│   ├── index.html           # Homepage
+│   ├── login.html           # Login page
+│   ├── signup.html          # Signup page
+│   ├── products.html        # Product listing page
+│   ├── product-detail.html  # Single product page                             left
+│   ├── cart.html            # Shopping cart
+│   ├── wishlist.html        # Wishlist page
+│   ├── contact.html         # Contact page                                    left
+│   ├── privacy.html         # Privacy policy                                  left
+│   ├── terms.html           # Terms & conditions                              left
+│   └── size-guide.html      # Size guide                                      left
+├── static/
+│   ├── css/                                                                   left whole
+│   │   ├── style.css        # Main styles
+│   │   ├── components.css   # Component styles
+│   │   ├── responsive.css   # Mobile responsive
+│   │   └── animations.css   # Animations
+│   ├── js/
+│   │   ├── main.js          # Main JavaScript
+│   │   ├── cart.js          # Cart functionality                             left
+│   │   ├── wishlist.js      # Wishlist functionality                         left
+│   │   └── ui.js            # UI utilities                                   left
+│   └── images/              # Static images                                  left
+└── routes/
+    ├── __init__.py
+    ├── main.py              # Main routes
+    ├── auth.py              # Authentication routes
+    ├── products.py          # Product routes
+    └── cart.py              # Cart routes
